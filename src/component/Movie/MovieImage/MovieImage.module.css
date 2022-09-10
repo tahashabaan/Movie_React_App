@@ -1,0 +1,21 @@
+
+.img  {
+  width:100%;
+  z-index: 20;
+  position: relative;
+  animation: infomovie 1200ms forwards;
+}
+
+@keyframes infomovie {
+   from {
+    opacity: 0;
+   }
+
+  to{
+    opacity: 1;
+  }
+  
+}
+
+
+ 

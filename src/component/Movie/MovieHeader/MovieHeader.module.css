@@ -1,0 +1,25 @@
+.head {
+  background-color: var(--medGrey);
+  padding: 2px 10px;
+}
+.head span {
+  color: var(--white);
+  font-size: var(--fontBig);
+}
+.head span :nth-of-type(2){
+  padding: 0px 3px;
+  /* color: black; */
+}
+
+/* .active  {
+  padding-right: 30px;
+} */
+
+@media screen and ( max-width : 750px ) {
+  
+  .head span {
+    font-size: var(--fontMed);
+  }
+  
+  
+}

@@ -1,0 +1,45 @@
+.backdrop {
+  background-color: var(--lightGrey);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+}
+
+.head {
+z-index: 20;
+
+padding: 3rem 1rem;
+}
+
+.icon {
+  font-size: var(--fontBig);
+  font-weight: 600;
+  position: sticky;
+  top: 1rem;
+}
+
+.main{
+  width: 100%;
+  text-align: center;
+}
+
+.main img{
+  width: 100%;
+  max-height: auto;
+  object-fit:cover ;
+  position: relative;
+}
+
+.control {
+ position: absolute;
+ top: 70vh;
+ left: 3%;
+ color: black;
+}
+.control p {
+  width: 80%;
+  line-height: 25px;
+}

@@ -1,0 +1,34 @@
+.head {
+  /* position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 70px;
+  z-index: -1; */
+  background-color: var(--darkGrey);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+ }
+
+ .left-side {
+  width: 200px;
+ }
+
+ .right-side {
+  width: 100px;
+ }
+
+ @media screen and (max-width : 500px) {
+
+  .left-side {
+    width: 150px;
+   }
+
+   .right-side {
+    width: 80px;
+   }
+  
+ }

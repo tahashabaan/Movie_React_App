@@ -1,0 +1,16 @@
+
+.button{
+  width: fit-content;
+  text-align: center;
+  margin-left: 45vw ;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border-color: rgb(87, 6, 6) ;
+  border-radius: 12px;
+  background-color: rgb(87, 6, 6);
+  font-size: var(--fontMed);
+  color: var(--white);
+  outline: none;
+  cursor: pointer;
+
+}

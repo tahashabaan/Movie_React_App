@@ -1,0 +1,14 @@
+.movieBar {
+  background-color: var(--darkGrey);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+
+}
+
+.movieBar section {
+  background-color: var(--medGrey);
+  border-radius: 16px;
+  padding: 2px 20px;
+}

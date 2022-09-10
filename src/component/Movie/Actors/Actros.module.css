@@ -1,0 +1,35 @@
+
+.list{
+  list-style: none;
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+ .item {
+  padding: 7px;
+  border-radius: 16px;
+  background-color: var(--darkGrey);
+ }
+
+ .item:hover .hover{
+  cursor: pointer;
+  display: block;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 12px;
+
+ 
+}
+
+.hover {
+  color: var(--white);
+  text-align: center;
+  /* display: none; */
+  transition: display 0.4s;
+}
+
+.hover h4 {
+  opacity: 0.7;
+}
