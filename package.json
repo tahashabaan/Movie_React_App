@@ -1,4 +1,5 @@
 {
+  "homepage": "https://tahashabaan.github.io/Movie_React_App",
   "name": "react-the-complete-guide",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.1",
     "@testing-library/user-event": "^7.2.1",
+    "gh-pages": "^4.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
